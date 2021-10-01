@@ -2,7 +2,7 @@
 
 ### Query and Mutations:
 
-## Create Todo
+#### Create Todo
 ```gql
 mutation CreateTodo($createTodoTodoInput: TodoInput){
   createTodo (todoInput: $createTodoTodoInput){
@@ -14,7 +14,7 @@ mutation CreateTodo($createTodoTodoInput: TodoInput){
 }
 ```
 
-## Get Todos
+#### Get Todos
 ```gql
 query GetTodos{
    todos {
@@ -25,7 +25,7 @@ query GetTodos{
 }
 ```
 
-## Update Todo
+#### Update Todo
 ```gql
 mutation UpdateTodo($updateTodoId: ID!, $updateTodoTodoInput: TodoInput){
   updateTodo(id: $updateTodoId,todoInput: $updateTodoTodoInput) {
@@ -36,7 +36,7 @@ mutation UpdateTodo($updateTodoId: ID!, $updateTodoTodoInput: TodoInput){
 }
 ```
 
-## Delete Todo
+#### Delete Todo
 ```gql
 mutation DeleteTodo($deleteTodoId: ID!){
 deleteTodo(id: $deleteTodoId) {
