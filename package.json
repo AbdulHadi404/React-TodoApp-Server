@@ -1,24 +1,25 @@
 {
-  "name": "react-todoapp-server",
-  "version": "1.0.0",
-  "description": "Apllo Gql Server with MongoDB",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AbdulHadi404/React-TodoApp-Server.git"
-  },
-  "author": "AbdulHadi404",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AbdulHadi404/React-TodoApp-Server/issues"
-  },
-  "homepage": "https://github.com/AbdulHadi404/React-TodoApp-Server#readme",
-  "dependencies": {
-    "apollo-server": "^3.3.0",
-    "graphql": "^15.6.0",
-    "mongoose": "^6.0.8"
-  }
+	"name": "react-todoapp-server",
+	"version": "1.0.0",
+	"description": "Apllo Gql Server with MongoDB",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AbdulHadi404/React-TodoApp-Server.git"
+	},
+	"author": "AbdulHadi404",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/AbdulHadi404/React-TodoApp-Server/issues"
+	},
+	"homepage": "https://github.com/AbdulHadi404/React-TodoApp-Server#readme",
+	"dependencies": {
+		"apollo-server": "^3.3.0",
+		"graphql": "^15.6.0",
+		"mongoose": "^6.0.8"
+	}
 }
