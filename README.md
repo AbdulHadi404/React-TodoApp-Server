@@ -1,6 +1,6 @@
 ## Apllo GraphQL Server with MongoDB
 
-Query and Mutations:
+## Query and Mutations:
 
 ### Create Todo
 ```gql
