@@ -2,7 +2,7 @@
 
 Query and Mutations:
 
-```js
+```gql
 mutation CreateTodo($createTodoTodoInput: TodoInput){
   createTodo (todoInput: $createTodoTodoInput){
       id
