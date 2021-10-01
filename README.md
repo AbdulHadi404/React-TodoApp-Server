@@ -2,7 +2,7 @@
 
 Query and Mutations:
 
-``js
+```js
 mutation CreateTodo($createTodoTodoInput: TodoInput){
   createTodo (todoInput: $createTodoTodoInput){
       id
@@ -11,7 +11,7 @@ mutation CreateTodo($createTodoTodoInput: TodoInput){
     }
   }
 }
-``
+```
 
 query GetTodos{
    todos {
