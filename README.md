@@ -1,4 +1,4 @@
-## Apllo Gql Server with MongoDB
+## Apllo GraphQL Server with MongoDB
 
 Query and Mutations:
 
