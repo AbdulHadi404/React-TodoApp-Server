@@ -1,4 +1,12 @@
-## Apllo GraphQL Server with MongoDB
+## Apollo GraphQL Server with MongoDB
+
+This TodoApp Implements CRUD operations using Apollo GraphQL Query and Mutations.
+
+Here's the Front-End for this App:
+
+Here's the GraphQL Server for this App:
+- [React TodoApp](https://github.com/AbdulHadi404/React-TodoApp)
+
 
 ### Query and Mutations:
 
